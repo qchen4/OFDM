@@ -1,0 +1,227 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /opt/xilinx/2025.2/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ieee80211a_rx_top_behav xil_defaultlib.tb_ieee80211a_rx_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-10063] index 36 into 'W_set_branch_stage' is out of bounds [/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_viterbi217.v:309]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/clock_rst.v" Line 12. Module clock_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_fsm.v" Line 12. Module rx_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_packet_detect.v" Line 12. Module rx_packet_detect doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/complex_mult.v" Line 14. Module complex_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=17,C_IN_W2=14,C_OUT_W1=9,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=17,C_IN_W2=14,C_OUT_W1=9,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=17,C_IN_W2=14,C_OUT_W1=9,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_coarse_foc.v" Line 12. Module rx_coarse_foc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/complex_mult.v" Line 14. Module complex_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=17,C_IN_W2=14,C_OUT_W1=9,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=17,C_IN_W2=14,C_OUT_W1=9,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=19,C_IN_W2=13,C_OUT_W1=16,C_OUT_W2=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=19,C_IN_W2=13,C_OUT_W1=16,C_OUT_W2=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_full_quadrant_arctan.v" Line 12. Module cordic_full_quadrant_arctan doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_arctan.v" Line 12. Module cordic_arctan_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W1=19,C_IN_W2=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=35,C_IN_W2=13,C_OUT_W1=22,C_OUT_W2=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=20,C_IN_W2=17,C_OUT_W1=16,C_OUT_W2=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_full_quadrant_sincos.v" Line 12. Module cordic_full_quadrant_sincos doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_sincos.v" Line 12. Module cordic_sincos_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=16,C_IN_W2=13,C_OUT_W1=8,C_OUT_W2=6) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=16,C_IN_W2=13,C_OUT_W1=8,C_OUT_W2=6) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/complex_mult.v" Line 14. Module complex_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W2=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=17,C_IN_W2=13,C_OUT_W1=9,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=17,C_IN_W2=13,C_OUT_W1=9,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_symbol_sync.v" Line 12. Module rx_symbol_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_symbol_sync_corr.v" Line 1. Module rx_symbol_sync_corr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_fine_foc.v" Line 12. Module rx_fine_foc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/complex_mult.v" Line 14. Module complex_mult(C_IN_W1=9,C_IN_W2=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W1=9,C_IN_W2=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W1=9,C_IN_W2=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W1=9,C_IN_W2=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W1=9,C_IN_W2=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=19,C_IN_W2=14,C_OUT_W1=10,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=19,C_IN_W2=14,C_OUT_W1=10,C_OUT_W2=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=22,C_IN_W2=13,C_OUT_W1=16,C_OUT_W2=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=22,C_IN_W2=13,C_OUT_W1=16,C_OUT_W2=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_full_quadrant_arctan.v" Line 12. Module cordic_full_quadrant_arctan doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_arctan.v" Line 12. Module cordic_arctan_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" Line 10. Module real_mult(C_IN_W1=19,C_IN_W2=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=35,C_IN_W2=13,C_OUT_W1=22,C_OUT_W2=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" Line 11. Module round_sat(C_IN_W1=22,C_IN_W2=19,C_OUT_W1=16,C_OUT_W2=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_full_quadrant_sincos.v" Line 12. Module cordic_full_quadrant_sincos doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_sincos.v" Line 12. Module cordic_sincos_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" Line 12. Module cordic_shift(C_ARCTAN_MODE=0) doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_rst
+Compiling module xil_defaultlib.rx_fsm
+Compiling module xil_defaultlib.real_mult(C_IN_W2=8)
+Compiling module xil_defaultlib.complex_mult(C_IN_W2=8)
+Compiling module xil_defaultlib.round_sat(C_IN_W1=17,C_IN_W2=14,...
+Compiling module xil_defaultlib.rx_packet_detect
+Compiling module xil_defaultlib.round_sat(C_IN_W1=19,C_IN_W2=13,...
+Compiling module xil_defaultlib.cordic_shift_default
+Compiling module xil_defaultlib.cordic_arctan_default
+Compiling module xil_defaultlib.cordic_full_quadrant_arctan
+Compiling module xil_defaultlib.real_mult(C_IN_W1=19,C_IN_W2=16)
+Compiling module xil_defaultlib.round_sat(C_IN_W1=35,C_IN_W2=13,...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=20,C_IN_W2=17,...
+Compiling module xil_defaultlib.cordic_shift(C_ARCTAN_MODE=0)
+Compiling module xil_defaultlib.cordic_sincos_default
+Compiling module xil_defaultlib.cordic_full_quadrant_sincos
+Compiling module xil_defaultlib.round_sat(C_IN_W1=16,C_IN_W2=13,...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=17,C_IN_W2=13,...
+Compiling module xil_defaultlib.rx_coarse_foc
+Compiling module xil_defaultlib.rx_symbol_sync_corr
+Compiling module xil_defaultlib.rx_symbol_sync
+Compiling module xil_defaultlib.real_mult(C_IN_W1=9,C_IN_W2=9)
+Compiling module xil_defaultlib.complex_mult(C_IN_W1=9,C_IN_W2=9...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=19,C_IN_W2=14,...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=22,C_IN_W2=13,...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=22,C_IN_W2=19,...
+Compiling module xil_defaultlib.real_mult(C_IN_W2=9)
+Compiling module xil_defaultlib.complex_mult(C_IN_W2=9)
+Compiling module xil_defaultlib.round_sat(C_IN_W1=18,C_IN_W2=13,...
+Compiling module xil_defaultlib.rx_fine_foc
+Compiling module xil_defaultlib.rx_remove_cp
+Compiling module xil_defaultlib.butterfly_r2_dif(C_TOTAL_BF_NUM=...
+Compiling module xil_defaultlib.real_mult(C_IN_W1=11,C_IN_W2=9)
+Compiling module xil_defaultlib.complex_mult(C_IN_W1=11,C_IN_W2=...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=21,C_IN_W2=14,...
+Compiling module xil_defaultlib.butterfly_r2_dif(C_IN_W1=10,C_OU...
+Compiling module xil_defaultlib.real_mult(C_IN_W1=12,C_IN_W2=9)
+Compiling module xil_defaultlib.complex_mult(C_IN_W1=12,C_IN_W2=...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=22,C_IN_W2=14,...
+Compiling module xil_defaultlib.butterfly_r2_dif(C_IN_W1=11,C_OU...
+Compiling module xil_defaultlib.real_mult(C_IN_W1=14,C_IN_W2=9)
+Compiling module xil_defaultlib.complex_mult(C_IN_W1=14,C_IN_W2=...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=24,C_IN_W2=14,...
+Compiling module xil_defaultlib.butterfly_r2_dif(C_IN_W1=13,C_OU...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=15,C_IN_W2=7,C...
+Compiling module xil_defaultlib.butterfly_r2_dif(C_IN_W1=14,C_OU...
+Compiling module xil_defaultlib.butterfly_r2_dif(C_IN_W1=14,C_OU...
+Compiling module xil_defaultlib.fft64_bit_reverse
+Compiling module xil_defaultlib.rx_fft64_burst
+Compiling module xil_defaultlib.real_mult(C_IN_W1=14,C_IN_W2=14)
+Compiling module xil_defaultlib.complex_mult(C_IN_W1=14,C_IN_W2=...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=29,C_IN_W2=14,...
+Compiling module xil_defaultlib.rx_equalize
+Compiling module xil_defaultlib.rx_pilot_scramble
+Compiling module xil_defaultlib.real_mult(C_IN_W1=14,C_IN_W2=8)
+Compiling module xil_defaultlib.complex_mult(C_IN_W1=14,C_IN_W2=...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=23,C_IN_W2=14,...
+Compiling module xil_defaultlib.round_sat(C_IN_W1=22,C_IN_W2=14,...
+Compiling module xil_defaultlib.rx_phase_track
+Compiling module xil_defaultlib.rx_pilot_remove
+Compiling module xil_defaultlib.rx_signal_data_split
+Compiling module xil_defaultlib.rx_signal_de_bpsk
+Compiling module xil_defaultlib.rx_signal_de_interleave
+Compiling module xil_defaultlib.rx_data_de_qam16
+Compiling module xil_defaultlib.rx_data_de_interleave
+Compiling module xil_defaultlib.rx_signal_data_combine
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.traceback64_unit(C_TRACEBACK_IDX...
+Compiling module xil_defaultlib.hanming_dis
+Compiling module xil_defaultlib.acs64
+Compiling module xil_defaultlib.rx_viterbi217_default
+Compiling module xil_defaultlib.divider_shift
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.rx_signal_parse
+Compiling module xil_defaultlib.rx_data_de_scramble
+Compiling module xil_defaultlib.rx_pseudo_mac
+Compiling module xil_defaultlib.tb_ieee80211a_rx_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ieee80211a_rx_top_behav

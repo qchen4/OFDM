@@ -1,0 +1,22 @@
+# Simulation waveforms & build artifacts
+Verilog/waves/
+*.vcd
+*.vcd.gz
+*.wdb
+*.fsdb
+
+Verilog/sim_build/
+prj/**/*.runs/
+prj/**/*.cache/
+prj/**/.Xil/
+
+# Vivado/Cursor local logs
+vivado.jou
+vivado.log
+vivado*.log
+*.jou
+
+# OS / editor
+.DS_Store
+*.swp
+*~

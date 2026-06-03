@@ -1,0 +1,19 @@
+{
+	"toolChain": "xilinx",
+	"prjName": {
+		"PL": "AD9361_OFDM_Transceiver"
+	},
+	"ARCH": {
+		"PRJ_Path": "${workspace}/prj",
+		"Hardware": {
+			"src": "${workspace}/Verilog",
+			"sim": "${workspace}/Verilog",
+			"data": "${workspace}/constraints"
+		}
+	},
+	"soc": {
+		"core": "none"
+	},
+	"device": "xc7z045ffg900-2",
+	"enableShowlog": true
+}

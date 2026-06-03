@@ -1,0 +1,80 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/acs64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module acs64
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/butterfly_r2_dif.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly_r2_dif
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/clock_rst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/complex_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complex_mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_arctan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_arctan
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_full_quadrant_arctan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_full_quadrant_arctan
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_full_quadrant_sincos.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_full_quadrant_sincos
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/cordic_sincos.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_sincos
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/divider_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/fft64_bit_reverse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft64_bit_reverse
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/hanming_dis.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hanming_dis
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/real_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module real_mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/round_sat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module round_sat
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_coarse_foc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_coarse_foc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_data_de_interleave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_data_de_interleave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_data_de_qam16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_data_de_qam16
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_data_de_scramble.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_data_de_scramble
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_equalize.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_equalize
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_fft64_burst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_fft64_burst
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_fine_foc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_fine_foc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_packet_detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_packet_detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_phase_track.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_phase_track
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_pilot_remove.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_pilot_remove
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_pilot_scramble.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_pilot_scramble
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_pseudo_mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_pseudo_mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_remove_cp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_remove_cp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_signal_data_combine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_signal_data_combine
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_signal_data_split.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_signal_data_split
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_signal_de_bpsk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_signal_de_bpsk
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_signal_de_interleave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_signal_de_interleave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_signal_parse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_signal_parse
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_symbol_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_symbol_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_symbol_sync_corr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_symbol_sync_corr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/rx_viterbi217.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_viterbi217
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/traceback64_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module traceback64_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/tb_ieee80211a_rx_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ieee80211a_rx_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/Verilog/sim_build/ofdm_rx_sim.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

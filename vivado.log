@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun  2 21:08:06 2026
+# Process ID         : 106667
+# Current directory  : /media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM
+# Command line       : vivado -mode batch -source run_vivado_sim.tcl
+# Log file           : /media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/vivado.log
+# Journal file       : /media/qchen438/T7/Engineering_Library/70_Projects/OFDM_AD9361_FPGA/OFDM/vivado.jou
+# Running On         : qchen438-JeremyPC
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 9 9900X 12-Core Processor
+# CPU Frequency      : 3001.551 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 32734 MB
+# Swap memory        : 16000 MB
+# Total Virtual      : 48735 MB
+# Available Virtual  : 41124 MB
+#-----------------------------------------------------------
+source run_vivado_sim.tcl
+couldn't read file "run_vivado_sim.tcl": no such file or directory
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  2 21:08:07 2026...
